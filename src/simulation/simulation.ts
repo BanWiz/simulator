@@ -11,6 +11,8 @@ import { SimulationFailCause } from '../model/simulation-fail-cause.enum';
 import { Craft } from '../model/craft';
 import { StepState } from '../model/step-state';
 
+import { SimulationState } from './simulation-state';
+
 export class Simulation {
   public progression = 0;
   public quality = 0;
